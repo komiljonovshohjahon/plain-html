@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ExChanger</title>
+    <link rel="stylesheet" href="./app.css" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <a href="#" id="image"><img src="./assets/logo.png" alt="" /></a>
+
+        <div id="lists">
+          <ul>
+            <li><button type="button" class="btn btn-link">Devices</button></li>
+            <li>
+              <button type="button" class="btn btn-link">Transfers</button>
+            </li>
+            <li><button type="button" class="btn btn-link">Events</button></li>
+            <li><button type="button" class="btn btn-link">Report</button></li>
+          </ul>
+        </div>
+
+        <div id="searchBar">
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Search by device name, IP, tag"
+            aria-label="Search by device name, IP, tag"
+            aria-describedby="addon-wrapping"
+          />
+        </div>
+
+        <div id="contact">
+          <div class="row">
+            <div class="col">
+              <p>hery@innorix.com</p>
+            </div>
+            <div class="col">
+              <p>Top manager</p>
+            </div>
+            <div class="col">
+              <a class="settings-icon" href="#"
+                ><i class="fas fa-sliders-h"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <hr />
+
+    <div class="container sec-header">
+      <h1>Devices</h1>
+      <div>
+        <button type="button" class="btn btn-secondary">+ Device</button>
+        <button type="button" class="btn btn-secondary">+ Transfer</button>
+      </div>
+    </div>
+
+    <div class="container">
+      <div>
+        <button type="button" class="btn btn-outline-secondary active">
+          All
+        </button>
+        <button type="button" class="btn btn-outline-secondary">
+          <i class="far fa-star"></i>
+          Star
+        </button>
+        <button type="button" class="btn btn-outline-secondary">
+          Connected
+        </button>
+        <button type="button" class="btn btn-outline-secondary">
+          Disconnected
+        </button>
+        <button type="button" class="btn btn-outline-secondary">
+          Trasnferring
+        </button>
+        <button type="button" class="btn btn-outline-secondary">Paused</button>
+        <button type="button" class="btn btn-outline-secondary">
+          Scheduled
+        </button>
+        <button type="button" class="btn btn-outline-secondary">Added</button>
+      </div>
+      <p>129 devices</p>
+    </div>
+
+      <hr style="margin-left: 16%; margin-right: 16%;" />
+
+
+    <div class="container">
+      <table class="table">
+        <thead>
+          <tr>
+            <th><input type="checkbox" name="" id="" /></th>
+            <th >Network</th>
+            <th >Address</th>
+            <th>Type</th>
+            <th>Name</th>
+            <th>Receieve space</th>
+            <th>Transfer</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row"></th>
+            <td class="sepereator">Private</td>
+            <hr/>
+          </tr>
+          <tr class="windows-section">
+            <td><input type="checkbox" name="" id="" /></th>
+            <td class="network-head"><i class="far fa-star"></i> Private</th>
+            <td>192.168.0.1</th>
+            <td><img class="imgs" src="./assets/windows-logo.png" alt=""> Windows 2000</th>
+            <td class="with-tag">Pusan Exchange V8 <span>#Pusan  #Windows   #VirtualOS 
+            </span></th>
+            <td>
+            <div class="hov p-progress">
+              <div class="p-text">
+            12TB / 20TB
+            </div>
+          </div>
+        </th>
+            <td>3</th>
+            <td >
+              <div class="hov p-progress-sending">
+                <div class="p-text-sending">
+                Sending
+              </div>
+            </div>
+              <div class="hov p-progress-paused">
+                <div class="p-text-paused">
+                Paused
+              </div>
+              </div><div>
+              <div class="hov p-progress-hours">
+                <div class="p-text-hours">
+               3 hours later
+              </div>
+            </div>
+            </th>
+          </tr>
+          <tr>
+            <th scope="row"></th>
+            <td>Exchanger.ai</td>
+          </tr>
+          
+          <tr>
+            <td><input type="checkbox" name="" id="" /></th>
+            <td><i class="far fa-star"></i> Cloud</th>
+            <td>192.168.0.2 (4)
+            </th>
+            <td><img class="imgs" src="./assets/그림1.png" alt=""> Redhat 32.3
+            </th>
+            <td>For testing transfers
+            </th>
+            <td>
+
+              <div class="hov p-progress-tera">
+                <div class="p-text-tera">
+                  122TB / 230TB
+              </div>
+            </div>
+
+            </th>
+            <td>0</th>
+            <td class="connected">Connected</th>
+          </tr>
+          <tr>
+            <td><input type="checkbox" name="" id="" /></th>
+            <td><i class="far fa-star"></i> Relay</th>
+            <td>192.168.0.3
+
+            </th>
+            <td><img class="imgs" src="./assets/그림2.png" alt=""> Mac OS 17.9
+
+            </th>
+            <td>Relay server #23 in Hong Kong
+
+            </th>
+            <td>
+              <div class="hov p-progress-tera2">
+                <div class="p-text-tera2">
+                  18TB /   20TB
+
+              </div>
+            </div>
+            </th>
+            <td>0</th>
+            <td  class="disconnected" >Disconnected
+            </th>
+          </tr>
+          <tr>
+            <th scope="row"></th>
+            <td class="korean-text">124.12.42.221 – 내가 지정한 그룹 이름
+            </td>
+          </tr>
+          <tr>
+            <td><input type="checkbox" name="" id="" /></th>
+            <td><i class="far fa-star"></i> Private</th>
+            <td>192.168.0.4 (2)
+
+
+            </th>
+            <td><img class="imgs" src="./assets/그림3.png" alt=""> Ubuntu 18.1
+            </th>
+            <td class="with-tag">Manhattan New Server 2 <span>#Pusan  #Windows   #VirtualOS 
+            </span>
+
+
+            </th>
+            <td><div class="hov p-progress">
+              <div class="p-text">
+              12TB / 20TB
+            </div>
+          </div></th>
+            <td>1</th>
+            <td><div class="hov p-progress-sending">
+              <div class="p-text-sending">
+              Recieving
+            </div>
+          </div>
+            </th>
+          </tr>
+          <tr>
+            <td><input type="checkbox" name="" id="" /></th>
+            <td><i class="far fa-star"></i> Private</th>
+            <td>192.168.0.6 (2)
+
+
+            </th>
+            <td><img class="imgs" src="./assets/그림4.png" alt=""> Amazon S3
+
+
+            </th>
+            <td class="with-tag"> Manhattan New Server 1 <span>#Pusan  #Windows   #VirtualOS 
+            </span>
+
+
+            </th>
+            <td><div class="hov p-progress">
+              <div class="p-text">
+              12TB / 20TB
+            </div>
+          </div></th>
+            <td>0</th>
+            <td><div class="hov p-progress-tera3">
+              <div class="p-text-tera3">
+               Disconnected
+
+            </div>
+          </div>
+            </th>
+          </tr>
+        </tbody>
+      </table>
+
+      
+    </div>
+
+    <hr class="hhr">
+
+    <div class="container foot">
+
+      <footer>
+        <div class="first-section"><p>INNORIX</p>
+          <p>Help</p></div>
+
+        <div class="time-icon">
+          <p>06:56PM 18 Dec 2018
+            <i class="far fa-bell"></i>
+          </p>
+          
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

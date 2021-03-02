@@ -1,0 +1,171 @@
+body {
+  margin-top: 20px !important;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul li {
+  display: inline-block;
+  text-decoration: none;
+}
+
+#contact {
+  display: flex;
+}
+
+a {
+  color: inherit !important;
+}
+
+.form-control {
+  padding-right: 50px !important;
+}
+
+.sec-header {
+  justify-content: space-between !important;
+  margin-bottom: 20px;
+}
+
+#p-section {
+  margin-left: 350px !important;
+}
+
+.p-bars {
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+.first-section {
+  display: flex;
+}
+span {
+  color: grey;
+  font-size: smaller;
+}
+
+.foot {
+  justify-content: flex-start;
+}
+span {
+  padding-bottom: 33px;
+}
+footer {
+  display: flex;
+}
+
+/* .hhr {
+  margin-top: 80px;
+} */
+
+.connected {
+  color: green;
+}
+.disconnected {
+  color: red;
+}
+
+.with-tag {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 40px !important;
+}
+
+.seperator {
+  border-bottom: 2px black solid;
+}
+
+.p-progress {
+  background-color: whitesmoke;
+  border: 1px grey solid;
+}
+.p-text {
+  width: 80%;
+  background-color: grey;
+  color: whitesmoke;
+}
+
+.p-progress-sending {
+  background-color: whitesmoke;
+  border: 1px skyblue solid;
+  margin-bottom: 10px !important;
+}
+
+.p-text-sending {
+  width: 55%;
+  background-color: skyblue;
+  color: whitesmoke;
+}
+.p-progress-paused {
+  background-color: whitesmoke;
+  border: 1px grey solid;
+  margin-bottom: 10px !important;
+}
+
+.p-text-paused {
+  width: 55%;
+  background-color: grey;
+  color: whitesmoke;
+}
+
+.p-progress-hours {
+  background-color: whitesmoke;
+  border: 1px grey solid;
+  margin-bottom: 10px !important;
+}
+
+.p-text-hours {
+  width: 100%;
+  color: black;
+}
+
+.p-progress-tera {
+  background-color: whitesmoke;
+  border: 1px grey solid;
+  margin-bottom: 10px !important;
+}
+
+.p-text-tera {
+  width: 90%;
+  background-color: grey;
+  color: white;
+}
+
+.p-progress-tera2 {
+  background-color: whitesmoke;
+  border: 1px grey solid;
+  margin-bottom: 10px !important;
+}
+
+.p-text-tera2 {
+  width: 94%;
+  background-color: brown;
+  color: white;
+}
+.p-progress-tera3 {
+  background-color: whitesmoke;
+  border: 1px grey solid;
+  margin-bottom: 10px !important;
+}
+
+.p-text-tera3 {
+  width: 100%;
+  color: red;
+}
+.hov:hover {
+  color: blue !important;
+}
+
+.imgs {
+  width: 20% !important;
+}
+
+.network-head {
+  width: 100px;
+}
+
+.korean-text {
+  width: 100%;
+}
