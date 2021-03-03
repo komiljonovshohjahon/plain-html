@@ -1,0 +1,37 @@
+html:
+
+<div class="p-progress">
+              <p style="position: absolute; z-index: 1; text-align: center; left: 25px;">12TB / 20TB</p>
+              <div class="p-text">
+            </div>
+          </div>
+
+css:
+
+.p-progress {
+  width: 100%;
+  background-color: whitesmoke;
+  height: 25px;
+  /* background-color: whitesmoke; */
+  border: 1px #a6a6a6 solid;
+  /* z-index: 1;
+  width: 55%;
+  background-color: #a6a6a6; */
+  position: relative;
+}
+.p-text {
+  /* width: 55%;
+  color: whitesmoke; */
+  position: absolute;
+  top: 0;
+  color: black;
+  width: 80%;
+  height: 25px;
+  background-color: #a6a6a6;
+}
+.p-progress > p {
+  position: absolute;
+  z-index: 1;
+  text-align: center;
+  left: 25px;
+}

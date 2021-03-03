@@ -45,19 +45,19 @@
         </div>
 
         <div id="contact">
-          <div class="row">
+          <div class="row manager">
             <div class="col">
               <p>hery@innorix.com</p>
             </div>
             <div class="col">
-              <p>Top manager</p>
+              <p style="text-align: right; padding-right: 23px;">Top manager</p>
             </div>
             <div class="col">
               <a class="settings-icon" href="#"
-                ><i class="fas fa-sliders-h"></i
-              ></a>
+              >
             </div>
           </div>
+          <img style="width: 60%; display: flex; padding-top: 10px; padding-left: 10px;" src="./assets/그림11.png" alt=""></a>
         </div>
       </div>
     </header>
@@ -105,15 +105,15 @@
     <div class="container">
       <table class="table">
         <thead>
-          <tr>
-            <th><input type="checkbox" name="" id="" /></th>
-            <th >Network</th>
-            <th >Address</th>
-            <th>Type</th>
-            <th>Name</th>
-            <th>Receieve space</th>
-            <th>Transfer</th>
-            <th>Status</th>
+          <tr >
+            <th class="table-head"><input type="checkbox" name="" id="" /></th>
+            <th class="table-head">Network <img src="./assets/그림14.png" alt=""></th>
+            <th class="table-head">Address <img src="./assets/그림14.png" alt=""></th>
+            <th class="table-head">Type <img src="./assets/그림14.png" alt=""></th>
+            <th class="table-head">Name <img src="./assets/그림14.png" alt=""></th>
+            <th class="table-head recieve">Receieve space <img src="./assets/그림14.png" alt=""></th>
+            <th class="table-head">Transfer <img src="./assets/그림14.png" alt=""></th>
+            <th class="table-head">Status <img src="./assets/그림14.png" alt=""></th>
           </tr>
         </thead>
         <tbody>
@@ -123,45 +123,61 @@
             <hr/>
           </tr>
           <tr class="windows-section">
-            <td><input type="checkbox" name="" id="" /></th>
-            <td class="network-head"><i class="far fa-star"></i> Private</th>
+            <td><input type="checkbox"/></th>
+            <td><i class="far fa-star"></i> Private</th>
             <td>192.168.0.1</th>
             <td><img class="imgs" src="./assets/windows-logo.png" alt=""> Windows 2000</th>
-            <td class="with-tag">Pusan Exchange V8 <span>#Pusan  #Windows   #VirtualOS 
+            <td class="with-tag">Pusan Exchange V8 <span style="padding-bottom: 4rem;">#Pusan  #Windows   #VirtualOS 
             </span></th>
             <td>
-            <div class="hov p-progress">
+            <div class="p-progress">
+              <p>12TB / 20TB</p>
               <div class="p-text">
-            12TB / 20TB
             </div>
           </div>
+          </td>
         </th>
             <td>3</th>
             <td >
-              <div class="hov p-progress-sending">
+              <!-- <div class="hov p-progress-sending">
+                <p>Sending</p>
                 <div class="p-text-sending">
-                Sending
               </div>
+            </div> -->
+            <div class="p-progress" style="border-color: #0692fc; margin-bottom: 10px; color: white;">
+              <p>Seding</p>
+              <div class="p-text" style="background-color: #0692fc;">
             </div>
-              <div class="hov p-progress-paused">
+          </div>
+              <!-- <div class="hov p-progress-paused">
                 <div class="p-text-paused">
                 Paused
               </div>
-              </div><div>
-              <div class="hov p-progress-hours">
+              </div><div> -->
+                <div class="p-progress" style="border-color: grey; margin-bottom: 10px; color: white;">
+                  <p>12TB / 20TB</p>
+                  <div class="p-text" style="background-color: grey;">
+                </div>
+              </div>
+              <!-- <div class="hov p-progress-hours">
                 <div class="p-text-hours">
                3 hours later
               </div>
+            </div> -->
+            <div class="p-progress">
+              <p>12TB / 20TB</p>
+              <div class="p-text">
             </div>
+          </div>
             </th>
+            <tr class="exchanger">
+            <th></th>
+            <td style="width: 10% !important;">Exchanger.ai</td>
           </tr>
-          <tr>
-            <th scope="row"></th>
-            <td>Exchanger.ai</td>
           </tr>
           
-          <tr>
-            <td><input type="checkbox" name="" id="" /></th>
+          <tr class="cloud">
+            <td><input type="checkbox" name="" id=""/></th>
             <td><i class="far fa-star"></i> Cloud</th>
             <td>192.168.0.2 (4)
             </th>
@@ -172,8 +188,8 @@
             <td>
 
               <div class="hov p-progress-tera">
+                <p>122TB / 230TB</p>
                 <div class="p-text-tera">
-                  122TB / 230TB
               </div>
             </div>
 
@@ -181,7 +197,7 @@
             <td>0</th>
             <td class="connected">Connected</th>
           </tr>
-          <tr>
+          <tr >
             <td><input type="checkbox" name="" id="" /></th>
             <td><i class="far fa-star"></i> Relay</th>
             <td>192.168.0.3
@@ -205,17 +221,15 @@
             <td  class="disconnected" >Disconnected
             </th>
           </tr>
-          <tr>
+          <tr style=" height: 5vh !important; ">
             <th scope="row"></th>
-            <td class="korean-text">124.12.42.221 – 내가 지정한 그룹 이름
+            <td style=" border-bottom: 1px white solid !important;" class="kr-word">
             </td>
           </tr>
-          <tr>
+          <tr class="ubuntu">
             <td><input type="checkbox" name="" id="" /></th>
             <td><i class="far fa-star"></i> Private</th>
-            <td>192.168.0.4 (2)
-
-
+            <td>192.168.0.4 (2)</td>
             </th>
             <td><img class="imgs" src="./assets/그림3.png" alt=""> Ubuntu 18.1
             </th>
@@ -237,7 +251,8 @@
           </div>
             </th>
           </tr>
-          <tr>
+          <tr style="  border-bottom: white !important;
+          ">
             <td><input type="checkbox" name="" id="" /></th>
             <td><i class="far fa-star"></i> Private</th>
             <td>192.168.0.6 (2)
@@ -273,21 +288,16 @@
       
     </div>
 
-    <hr class="hhr">
 
-    <div class="container foot">
+      <footer style="padding-top: 15px;" class="foot fixed-bottom windows-section">
+       <div class="left-foot"><p style="padding-right: 50%; color: #898e98;">INNORIX</p>
+        <p>Help</p></div>
 
-      <footer>
-        <div class="first-section"><p>INNORIX</p>
-          <p>Help</p></div>
-
-        <div class="time-icon">
-          <p>06:56PM 18 Dec 2018
-            <i class="far fa-bell"></i>
-          </p>
-          
+          <div class="right-foot">
+            <p style=" padding-right: 20px;" >06:56PM 18 Dec 2018
+            </p>
+            <img style="width: 15%; margin-bottom: 10px;" src="./assets/그림12.png" alt="bell-button">
         </div>
       </footer>
-    </div>
   </body>
 </html>
