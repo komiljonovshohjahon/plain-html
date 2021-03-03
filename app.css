@@ -267,3 +267,7 @@ tr.ubuntu {
 .kr-word::after {
   content: "124.12.42.221 – 내가 지정한 그룹 이름";
 }
+
+.fa-star {
+  color: #bcbab3;
+}
